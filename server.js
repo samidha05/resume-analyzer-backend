@@ -27,7 +27,7 @@ app.use(compression());
 
 // CORS configuration - allow requests from frontend with credentials
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000'|| 'https://5553.netlify.app/',
+  origin: process.env.FRONTEND_URL || 'http://localhost:3000'|| 'https://5553.netlify.app',
   credentials: true,
   optionsSuccessStatus: 200
 };
