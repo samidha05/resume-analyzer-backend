@@ -1,0 +1,26 @@
+# ── Secrets (API keys, database passwords, JWT secret) ──
+.env
+.env.*
+!.env.example
+
+# ── Installed packages (anyone can re-create them with `npm install`) ──
+node_modules/
+
+# ── Logs ──
+logs/
+*.log
+npm-debug.log*
+
+# ── Uploaded files (resumes, photos) - remove the "#" if your backend saves uploads in this folder ──
+# uploads/
+
+# ── Build / test output ──
+dist/
+build/
+coverage/
+
+# ── Editor and system files ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
